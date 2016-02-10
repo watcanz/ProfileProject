@@ -81,11 +81,6 @@ header .profile-image {
   border: 10px solid #fff;
   border-bottom: 25px solid #fff;
   box-shadow: 3px 3px 3px #777;
-  transition: all .5s;
-}
-
-header .profile-image:hover {
-  transform: scale(1.5) rotate3d(1, 2.0, 3.0, 10deg);
 }
 
 .tag {
@@ -196,6 +191,25 @@ img {
   float: right;
 }
 
+.img-center {
+  margin: 15px;
+  position: relative;
+}
+
+.img-center img {
+  border: 10px solid #fff;
+  border-bottom: 25px solid #fff;
+  box-shadow: 3px 3px 3px #777;
+}
+ 
+.img-center p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 800 14px/0.5 "Indie Flower",cursive;
+  color: #000000;
+}
 .img-left {
   float: left;
   margin: 15px;
