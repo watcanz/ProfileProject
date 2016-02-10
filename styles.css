@@ -76,16 +76,16 @@ header {
 
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid #fff;
+  width: 200px;
+  height: 200px;
+  border: 10px solid #fff;
+  border-bottom: 25px solid #fff;
+  box-shadow: 3px 3px 3px #777;
   transition: all .5s;
 }
 
 header .profile-image:hover {
-  transform: scale(1.5);
-  border: 3px solid #ff9904;
+  transform: scale(1.5) rotate3d(1, 2.0, 3.0, 10deg);
 }
 
 .tag {
